@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: template
+Version: 0.0.1
+Author: Dmitriy L
+Requires-Python: >=3.11
+Requires-Dist: loguru
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Requires-Dist: python-logstash-async

@@ -1,0 +1,8 @@
+pyproject.toml
+src/config.py
+src/main.py
+template.egg-info/PKG-INFO
+template.egg-info/SOURCES.txt
+template.egg-info/dependency_links.txt
+template.egg-info/requires.txt
+template.egg-info/top_level.txt
