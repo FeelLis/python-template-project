@@ -130,7 +130,7 @@ class Consumer:
         Returns:
             type[BaseModel] | None: deserialized class.
         """
-        model_type = AIOConsumer._get_func_parsed_model_type(self.handler)
+        model_type = Consumer._get_func_parsed_model_type(self.handler)
         try:
             return model_type.model_validate_json(data)
         except ValidationError as e:
