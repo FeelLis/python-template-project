@@ -11,7 +11,7 @@ IS_DOCKER_CONTAINER = bool(os.getenv("DOCKER_CONTAINER", False))
 CONFIG_FILE = "/app/config/config.toml" if IS_DOCKER_CONTAINER else "devconfig.toml"
 
 
-class TomlConfig(BaseSettings):
+class TomlSettings(BaseSettings):
     model_config = SettingsConfigDict(toml_file=CONFIG_FILE)
 
     is_docker_container: bool = IS_DOCKER_CONTAINER

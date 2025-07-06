@@ -15,4 +15,4 @@ class Config(TomlSettings):
     logstash: LogstashConfig
 
 
-config = Config()
+config = Config()  # type: ignore
